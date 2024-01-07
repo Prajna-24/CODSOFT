@@ -1,16 +1,18 @@
 package projects;
 import java.util.Scanner;
+/*--------------------------------------      TASK NO.2       -----------------------------------------------*/
 public class StudentGradeCalculator {
 
 	public static void main(String[] args)
 	{
 		Scanner sc=new Scanner(System.in);
 		int sum=0;
-		
+		System.out.println("Enter no. of subjects whose marks to be calculated");
+		int n=sc.nextInt();
 		System.out.println("Enter marks of all subject to find sum,percentage and grade");
-		int []arr=new int[5]; 
+		int []arr=new int[n];
 		
-		for(int i=0;i<5;i++)	//we are taking marks from user and add in sum variable
+		for(int i=0;i<n;i++)	//we are taking marks from user and add in sum variable
 		{
 			arr[i]=sc.nextInt();
 			if(arr[i]>100 || arr[i]<0)
