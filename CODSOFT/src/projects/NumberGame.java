@@ -1,6 +1,7 @@
 package projects;
 import java.math.*;
 import java.util.Scanner;
+/*----------------------------------------------    TASK NO.1     ---------------------------------------------------------------*/
 public class NumberGame {
 	static int count=0;
 	
@@ -9,8 +10,10 @@ public class NumberGame {
 		double d = (Math.random()*100)+1;
 		int no=(int)d;
 		boolean choice;
-		System.out.println("In this game you can guess only 10 times\n");
+		System.out.println(" Welcome to Number Guessing game\n you can guess from 1 to 100 but\n you have to guess in 10 attempts\n");
+		
 		do {
+		System.out.println("*********************************************************");
 		System.out.println("Enter a number ");
 		functionforNoGuess(no);
 		System.out.println("For PLAYING AGAIN type true for EXIT type false ");
