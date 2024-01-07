@@ -1,5 +1,6 @@
 package projects;
 import java.util.Scanner;
+/********************************************      TASK NO. 2       ********************************************************************/
 public class BankAccount 
 {
 	static int amount;//50000;
@@ -44,7 +45,7 @@ public class BankAccount
 	}
 }
 
-//---------------------ATM Machine class starts from here----------------
+/*--------------------------------    ATM Machine class starts from here     -------------------------------*/
 
  class ATMmachine extends BankAccount
 {
